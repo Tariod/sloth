@@ -1,0 +1,25 @@
+{
+  "name": "sloth",
+  "version": "0.0.1",
+  "author": "Dmitriy Mikhailov, Dmitriy Nadobko, Maksim Kuvichka",
+  "description": "Scheduling Optimizatior",
+  "license": "MIT",
+  "keywords": [
+    "scheduling",
+    "job-shop problem"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tariod/sloth.git"
+  },
+  "main": "./sloth.js",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint . && metatests test/"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "metatests": "^0.3.0"
+  }
+}
