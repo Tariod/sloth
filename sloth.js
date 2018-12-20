@@ -1,10 +1,11 @@
 'use strict';
 
 const submodules = [
-  'roster',
   'schedule',
   'task',
-  'tools',
+  'taskList',
 ].map(path => require('./lib/' + path));
 
-module.exports = Object.assign({}, ...submodules);
+const tools = require('./lib/tools');
+
+module.exports = Object.assign({ tools }, ...submodules);
