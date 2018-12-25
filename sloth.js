@@ -1,6 +1,7 @@
 'use strict';
 
 const submodules = [
+  'retardMinim',
   'schedule',
   'task',
   'taskList',
