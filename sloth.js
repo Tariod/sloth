@@ -4,6 +4,7 @@ const submodules = [
   'schedule',
   'task',
   'taskList',
+  'tasksCompability',
 ].map(path => require('./lib/' + path));
 
 const tools = require('./lib/tools');
